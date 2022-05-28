@@ -1,0 +1,156 @@
+.card,.flip-card-front{
+box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2), 0 30px 60px 0 rgba(0, 0, 0, 0.19);
+}
+
+.body{
+	font-family:Calibri;
+	position: relative;
+	background-size:cover;
+	background-position: center;
+	background-attachment:fixed;
+	font-weight: 400;
+  max-height: 600px;
+}
+
+.section{
+text-align:center;
+}
+
+.section-light{
+background-color:white ;
+color:#black;
+font-size:25px;
+font-weight:bold;
+}
+
+.section-dark{
+background-color:black ;
+color:#E0F2F7;
+font-size:25px;
+font-weight:bold;
+}
+
+
+
+.section-trans{
+background:rgb(0,0,0);
+background:rgba(0,0,0,0.7) ;
+color:#E0F2F7;
+font-size:25px;
+font-weight:bold;
+}
+
+.ptext1{
+position:absolute;
+top:300px;
+right: 8%;
+font-family:cursive;
+width:100%;
+text-align:right;
+color:#000;
+font-size:20px;
+letter-spacing:8px;
+letter-transform:uppercase;
+}
+.ptext2{
+position:absolute;
+float:right;
+top:80px;
+right: 4%;
+font-family:"Lato" sans serif;
+width:50%;
+text-align:right;
+font-size:16px;
+letter-spacing:2px;
+letter-transform:uppercase;
+}
+.ptext2 .border{
+background-color:#f5deb3;
+color:#8b4513;
+padding:20px;
+align-content: center;
+}
+
+.ptext1 .border{
+background-color:#111;
+color:#fff;
+padding:20px;
+}
+
+.ptext1 .border .trans{
+background-color:transparent;
+}
+
+.container1 {
+	top:50px;
+left: 100px;
+  position: relative;
+  float:left;
+  width: 400px;
+  height:400px;
+ border-radius: 4px;
+   opacity: 1.0;
+    padding: 10px 10px 10px 10px;
+}
+ 
+
+.limg{
+background-image:url('22.jpeg');
+height:640px;
+opacity: 0.95;
+position:relative;
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+
+.phurr{
+float:right;
+}
+
+
+.ltext{
+font-family:"Calibri";
+width:90%;
+text-align:center;
+color:#000;
+font-size:35px;
+letter-transform:uppercase;
+}
+
+.image{
+  display: block;
+  width: 20%;
+  height: auto;
+  position:absolute;
+  image-align:center;
+  left:40%;
+ 
+}
+
+.overlay {
+  position: relative; 
+  background-color:#d6eaf8 ; 
+  width: 400px;
+  height:400px;
+  transition: .75s ease;
+  opacity:0;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+.container1:hover .overlay {
+  opacity: 1;
+}
+
+
+.text {
+  color: white;
+font-family:"Calibri";
+  font-size: 20px;
+  position: relative;
+  line-height:normal;
+text-align:justify;
+}

@@ -1,0 +1,306 @@
+.body{
+    font-family:Calibri;
+    position: relative;
+    background-size:cover;
+    background-position: center;
+    background-attachment:fixed;
+    font-weight: 400;
+}
+
+.section{
+text-align:center;
+}
+
+.section-light{
+background-color:white ;
+color:#black;
+font-size:25px;
+font-weight:bold;
+}
+
+.section-dark{
+background-color:black ;
+color:#E0F2F7;
+font-size:25px;
+font-weight:bold;
+}
+
+
+
+.section-trans{
+background:rgb(0,0,0);
+background:rgba(0,0,0,0.7) ;
+color:#E0F2F7;
+font-size:25px;
+font-weight:bold;
+}
+
+.ptext1{
+position:absolute;
+top:300px;
+right: 8%;
+font-family:"Lato" sans serif;
+width:100%;
+text-align:right;
+color:#000;
+font-size:27px;
+letter-spacing:8px;
+letter-transform:uppercase;
+}
+.ptext2{
+position:absolute;
+float:right;
+top:75px;
+right: 4%;
+font-family:"Lato" sans serif;
+width:50%;
+text-align:right;
+color:#000;
+font-size:22px;
+letter-spacing:2px;
+letter-transform:uppercase;
+}
+.ptext2 .border{
+background-color:#111;
+color:#fff;
+padding:20px;
+align-content: center;
+}
+
+.ptext1 .border{
+background-color:#111;
+color:#fff;
+padding:20px;
+}
+
+.ptext1 .border .trans{
+background-color:transparent;
+}
+
+.container1 {
+    top:50px;
+left: 100px;
+  position: relative;
+  float:left;
+  width: 400px;
+  height:400px;
+ border-radius: 4px;
+   opacity: 1.0;
+    padding: 10px 10px 10px 10px;
+}
+ 
+
+.limg{
+background-image:url('22.jpeg');
+height:640px;
+opacity: 0.95;
+position:relative;
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+
+.phurr{
+float:right;
+}
+
+
+.ltext{
+font-family:"Calibri";
+width:90%;
+text-align:center;
+color:#000;
+font-size:35px;
+letter-transform:uppercase;
+}
+
+.image{
+  display: block;
+  width: 20%;
+  height: auto;
+  position:absolute;
+  image-align:center;
+  left:40%;
+ 
+}
+
+.overlay {
+  position: relative; 
+  background-color:#d6eaf8 ; 
+  width: 400px;
+  height:400px;
+  transition: .75s ease;
+  opacity:0;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+.container1:hover .overlay {
+  opacity: 1;
+}
+
+
+.text {
+  color: white;
+font-family:"Calibri";
+  font-size: 20px;
+  position: relative;
+  line-height:normal;
+text-align:justify;
+}
+
+
+
+a:link{color:white; text-decoration:none;}
+a:hover{color:#FFA07A ;text-decoration:none;}
+a:visited{color:#FFA07A ;text-decoration:none;}
+input[type=submit] {
+	width: 50%;
+    background-color: #1e90ff;
+    color: white;
+    padding: 7px ;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+body {
+	opacity:1.0;
+	background-position: relative;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.trans{
+	background: rgb(0,0,0);
+	background:rgba(0,0,0,0.7);
+	background-size: cover;
+}
+table {
+    width:80%;
+}
+table, th, td {
+    border: none;
+    border-collapse:separate;
+    font-family: "calibri";
+      padding: 10px 50px 10px 50px;
+    
+}
+th {
+	padding: 5px;
+    text-align: center;
+    font-family: "calibri";
+    padding: 10px 50px 10px 50px;
+    
+}
+td {
+    padding: 5px;
+    text-align: center;
+    font-family: "calibri";
+      padding: 10px 50px 10px 50px;
+    
+}
+table.names tr:nth-child(even) {
+    background-color: #fff1f0;
+}
+table.names tr:nth-child(odd) {
+   background-color:#ff928a;
+}
+table.names th {
+    background-color: black;
+    color: white
+}
+
+
+table.names2 , th.names2,td.names2{
+ border: none;
+    border-collapse:collapse;
+    font-family: "calibri";
+      padding: 10px 50px 10px 50px;
+    
+}
+th.names2 {
+  padding: 5px;
+    text-align: center;
+    font-family: "calibri";
+    padding: 10px 50px 10px 50px;
+    
+}
+td.names2 {
+    padding: 5px;
+    text-align: center;
+    font-family: "calibri";
+      padding: 10px 50px 10px 50px;
+    
+}
+table.names2 tr:nth-child(even) {
+    background-color: #fff1f0;
+}
+table.names2 tr:nth-child(odd) {
+   background-color:#ff928a;
+}
+table.names2 th {
+    background-color: black;
+    color: white
+}
+
+.flip-card {
+  top: 50px;
+  left:100px;
+  float:left;
+  border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    background-color: transparent;
+    width: 400px;
+    height: 550px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+  top: 50px;
+  left:100px;
+  float:left;
+  border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+  position: relative;
+  width: 400px;
+  height: 550px;
+  text-align: center;
+  border-radius: 5px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  border-radius: 5px;
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 400px;
+  height: 550px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.flip-card-back {
+  background-color: white;
+/*background-image: url(https://www.transparenttextures.com/patterns/black-thread.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  transform: rotateY(180deg);
+  z-index: 1;
+  border-radius: 5px;
+}
